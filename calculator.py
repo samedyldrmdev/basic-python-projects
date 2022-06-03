@@ -10,11 +10,6 @@ giris = """
 print(giris)
 while True:
     soru = input("Yapmak istediğiniz işlemin numarasını giriniz. -Çıkmak için q- : ")
-#
-# anahtar = 1
-#
-# while anahtar == 1:
-#     soru = input("Yapmak istediğiniz işlemin numarasını giriniz. (Çıkmak için q) : ")yorum satırı
     try:
         if soru == "q":
             print("Çıkılıyor...")
