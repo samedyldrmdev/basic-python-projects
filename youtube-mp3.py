@@ -20,4 +20,4 @@ base, ext = os.path.splitext(output)
 to_mp3 = base + ".mp3"
 os.rename(output, to_mp3)
 
-print("İndirme başarıyla tamamlandı Sametcim!")
+print("İndirme başarıyla tamamlandı!")
